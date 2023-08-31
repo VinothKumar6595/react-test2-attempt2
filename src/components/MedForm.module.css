@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.form input {
+  padding-left: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.quantity {
+  display: block;
+  align-items: center;
+}
+
+.form button {
+  margin-left: 10px;
+  border-radius: 10px;
+  height: 35px;
+  width: 125px;
+  font-weight: bold;
+}
+.form button:hover {
+  background-color: rgb(34, 36, 35);
+  color: white;
+}

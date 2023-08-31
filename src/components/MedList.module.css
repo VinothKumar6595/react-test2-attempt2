@@ -1,0 +1,48 @@
+.list {
+  background-color: rgb(240, 232, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+}
+
+.order Input {
+  margin-top: 8px;
+}
+
+.list li span {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.list li {
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.list li button {
+  background-color: rgb(233, 227, 227);
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 9px;
+  height: 25px;
+}
+.list li button:hover {
+  background-color: black;
+  color: white;
+}
